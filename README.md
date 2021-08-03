@@ -11,4 +11,4 @@ Delete – delete, deactivate, or remove existing entries in a table in the data
 Django CRUD (Create, Retrieve, Update, Delete) Function Based Views
 ![Capture2](https://user-images.githubusercontent.com/70743320/127780572-45a64ce5-43a5-435b-9a35-f08293f1eb83.PNG)
 
-
+Demo : https://djangotable.herokuapp.com/
