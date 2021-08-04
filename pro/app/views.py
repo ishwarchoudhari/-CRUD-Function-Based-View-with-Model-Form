@@ -16,6 +16,7 @@ def show(request):
             contact = data.cleaned_data ['contact']
             reg = User( name = name,email = email,contact = contact )  # saves the data in the fields inside admin panel
             reg.save()  # save the data and render it in the admin panel and SQLite3 Database.
+            messages.add_message(request,messages.SUCCESS,"DONE!!..Your account has been created!!")
     else:
         data = UserForm()
     re = User.objects.all()
